@@ -1569,7 +1569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textoContador: {fileID: 1172443522}
   quienEmite: {fileID: 0}
-  elSonido: {fileID: 8300000, guid: a81555f8147346144b722b289a5b5738, type: 3}
+  elSonido: {fileID: 8300000, guid: c5b05789a09a93d45a80600fb833fc7b, type: 3}
   Gane: {fileID: 1443988440}
   btnrepetir: {fileID: 580597788}
 --- !u!82 &1230460625
@@ -1582,7 +1582,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a81555f8147346144b722b289a5b5738, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c5b05789a09a93d45a80600fb833fc7b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

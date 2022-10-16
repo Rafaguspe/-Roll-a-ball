@@ -10,7 +10,7 @@ public class Bienvenido : MonoBehaviour
     public Button BtnMenos,BtnMas,BtnEmpezar;
     public TextMeshProUGUI Velocidad;
     public int vel=1;
-
+    public GameObject controles,Bien;
 
 
     // Start is called before the first frame update
@@ -19,7 +19,7 @@ public class Bienvenido : MonoBehaviour
         
         BtnMenos.onClick.AddListener(()=>Bajar());
         BtnMas.onClick.AddListener(()=>Subir());
-        BtnEmpezar.onClick.AddListener(()=>Empezar());
+        BtnEmpezar.onClick.AddListener(()=>StartCoroutine(Empezar()));
 
 
     }
@@ -61,8 +61,11 @@ public class Bienvenido : MonoBehaviour
 
 
 
-void Empezar()
+IEnumerator  Empezar()
     {
+        Bien.SetActive(false);
+        controles.SetActive(true);
+          yield return new WaitForSeconds(4f);
         SceneManager.LoadScene("Juego");
     }
 

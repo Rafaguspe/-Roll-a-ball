@@ -241,7 +241,7 @@ ScriptsOnlyBuild:
     className: LayoutElement
   - hash:
       serializedVersion: 2
-      Hash: f4715a3b2ae786968b978fd48366fa17
+      Hash: bd00b229e13fcf0ff5c9634dfdb98682
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Bienvenido
@@ -657,5 +657,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Bienvenido.unity
   - Assets/Scenes/Juego.unity
-  playerPath: C:/Users/raagu/Documents/GitHub/-Roll-a-ball/Roll a ball/Builds/Roll
+  playerPath: C:/Users/raagu/Documents/GitHub/-Roll-a-ball/Roll a ball/Buildopa/Roll
     a ball.exe
